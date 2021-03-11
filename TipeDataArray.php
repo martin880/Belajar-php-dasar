@@ -25,16 +25,25 @@
 $martin = array(
     "id" => "mrt",
     "name" => "Martin Lumbangaol",
-    "age" => 29
+    "age" => 29,
+    "address" => array (
+        "city" => "Batam",
+        "country" => "Indonesia"
+    )
 );
 var_dump($martin);
 
 var_dump($martin["name"]);
+var_dump($martin["address"]["country"]);
 
 $iska = [
     "id" => "isk",
     "name" => "Iska Heriyati",
-    "age" => 26
+    "age" => 26,
+    "address" => [
+        "city" => "Batam",
+        "country" => "Indonesia"
+    ]
 ];
 var_dump($iska);
 
