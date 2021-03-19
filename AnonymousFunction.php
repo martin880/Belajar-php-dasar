@@ -26,3 +26,7 @@ $sayHelloMartin = function () use ($firstName, $lastName) {
 };
 
 $sayHelloMartin();
+
+$firstName = "Iska";
+$lastName = "Heriyati";
+$sayHelloMartin();

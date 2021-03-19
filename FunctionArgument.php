@@ -29,7 +29,7 @@ sum(100, 100);
 sum("100", "100");
 sum(true, false);
 
-// Variable-lenght Argument List "implode" berfungsi untuk merubah array menjadi string
+// Variable-lenght Argument List "implode" berfungsi untuk menggabungkan array menjadi string
 function sumAll(...$values){
     $total = 0;
     foreach ($values as $value){
