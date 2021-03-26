@@ -1,23 +1,25 @@
 <?php
-
-// $values = array(10, 9, 8, 7.5);
-// var_dump($values);
-
-// $names = ["Martin", "Halomoan", "Lumbangaol"];
-// var_dump($names);
-
-// var_dump($names[0]);
-
-// $names[0] = "Budi";
-// var_dump($names);
-
-// unset($names[1]);
-// var_dump($names);
-
-// $names[] = "Joko";
-// var_dump($names);
-
-// var_dump(count($names));
+/**
+ $values = array(10, 9, 8, 7.5);
+ var_dump($values);
+ 
+ $names = ["Martin", "Halomoan", "Lumbangaol"];
+ var_dump($names);
+ 
+ var_dump($names[0]);
+ 
+ $names[0] = "Budi";
+ var_dump($names);
+ 
+ unset($names[1]);
+ var_dump($names);
+ 
+ $names[] = "Joko";
+ var_dump($names);
+ 
+ var_dump(count($names));
+ 
+ */
 
 // ====================================================================== //
 
